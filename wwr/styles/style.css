@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,14 +10,17 @@ nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
     text-align: center;
+    font-family: Montserrat;
 }
 
 #hero-msg h4 {
     text-align: center;
+    font-family: Montserrat;
 }
 
 .button-box {
@@ -25,6 +31,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box; 
+}
+
 #background {
     height: 725px;
     background-color: #ffffff;
@@ -33,6 +43,10 @@ main section {
 
 body {
    background-color: #ffffff; 
+   font-family: lato;
+   font-size: 22px;
+   margin: 0;
+   padding: 0;
 }
 
 header {
@@ -49,6 +63,10 @@ nav a:hover {
     background-color: #C47335;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -59,6 +77,8 @@ nav a:hover {
 .msg {
     background: #b7c0af;
     color: whitesmoke;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
@@ -69,10 +89,16 @@ footer {
 
 .home-title {
     color: #25171a;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color:#b7c0af
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg h2 {
@@ -81,6 +107,13 @@ h4 {
 
 .msg p {
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -98,12 +131,21 @@ footer a:hover {
     text-decoration: none;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
+#logolink {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -112,4 +154,12 @@ footer a:hover {
 
 footer h3 a:hover {
     text-decoration: underline;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3; 
 }
