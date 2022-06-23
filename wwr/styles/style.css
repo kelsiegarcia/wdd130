@@ -232,17 +232,26 @@ footer h3 a:hover {
 }
 
 .rates-title {
-    color: #b7c0af;
+    color: #4F6367;
     font-size: 2em;
-    margin-top: 10px;
-    ;
 }
 
+.rates-title, .rafts-img {
+    position: absolute;
+}
+
+.rafts-img {
+    margin: 0px;
+}
+.prices-title {
+    color: #b7c0af;
+    font-size: 2em;
+}
 .column {
     float: left;
     width: 35%;
-    padding: 30px;
-    padding-right: 30px;
+    padding: 75px;
+    
 }
 
 .row::after {
@@ -256,11 +265,17 @@ footer h3 a:hover {
 }
 
 .group-img {
-    width: 700px;
+    width: 500px;
     border: 10px solid #d9c2a3; 
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 50px;
     
+}
+
+.info-p {
+    color: #4F6367;
+    font-size: 1em;  
 }
 
 .back-img {
