@@ -234,6 +234,7 @@ footer h3 a:hover {
 .rates-title {
     color: #4F6367;
     font-size: 2em;
+    padding: 50px;
 }
 
 .rates-title, .rafts-img {
@@ -243,10 +244,13 @@ footer h3 a:hover {
 .rafts-img {
     margin: 0px;
 }
+
 .prices-title {
     color: #b7c0af;
     font-size: 2em;
+    padding: 50px;
 }
+
 .column {
     float: left;
     width: 35%;
@@ -276,6 +280,7 @@ footer h3 a:hover {
 .info-p {
     color: #4F6367;
     font-size: 1em;  
+    padding-left: 50px;
 }
 
 .back-img {
