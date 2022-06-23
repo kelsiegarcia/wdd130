@@ -231,6 +231,51 @@ footer h3 a:hover {
     grid-row: 2/3;
 }
 
+.rates-title {
+    color: #b7c0af;
+    font-size: 2em;
+    margin-top: 10px;
+    ;
+}
+
+.column {
+    float: left;
+    width: 35%;
+    padding: 30px;
+    padding-right: 30px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.rates-img {
+    width: 100%;
+}
+
+.group-img {
+    width: 700px;
+    border: 10px solid #d9c2a3; 
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+
+.back-img {
+    width: 400px;
+    border: 10px solid #d9c2a3; 
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.trips-img {
+    column-span: 2;
+    column-width: 50%;
+    column-rule-width: 25px;
+}
+
 .mountains {
     width: 100%;
     grid-column: 2/7;
