@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
+
+#content {
+
+}
+
+nav a {
+    text-align: center;
+    color: #2E2C2C; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #92BCEA;
+    color: #ffffff;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#hero {
+    margin-top: -100;
+}
+
+/* #hero-img {
+    width: 50%;
+} */
+
+#hero-box {
+   
+}
+
+.box {
+    background-color: #92BCEA;
+    color: #7A93AC;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: solid 3px black;
+    margin: 0;
+  
+}
+
+#hero-img {
+  
+}
+
