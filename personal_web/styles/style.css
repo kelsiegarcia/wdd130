@@ -66,11 +66,11 @@ nav a:hover {
 .work-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-column: 1/1;
 }
 
 
-.work-card {
-   
+.work-card {   
     text-align: center;
     border-color:  #92BCEA;
     border-width: 3px;
@@ -83,7 +83,14 @@ nav a:hover {
 .work-img {
     width: 200px;
     height: 200px;
+    grid-column: 2/2;
 }
+
+#personal-img {
+    width: 600px;
+    height: 400px;
+}
+
 
 h2 {
     text-align: center;
@@ -101,6 +108,7 @@ h2 {
 }
 
 .personal-work-card {
+    grid-column: 2/2;
     text-align: center;
     border-color:  #92BCEA;
     border-width: 3px;
@@ -119,8 +127,35 @@ h2 {
 }
 
 .kop2-img {
+    width: 600px;
+    height: 400px;
+}
+
+#kop2-img {   
+    grid-column: 2/2;
     width: 200px;
     height: 200px;
+   
+}
+
+.kop-box {
+    height: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.kop-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 2/2;
+
+
+}
+
+.wwr-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .wwr-card {
@@ -129,14 +164,27 @@ h2 {
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 2px #92BCEA
+    box-shadow: 3px 3px 2px #92BCEA;
 }
 
-.wwr-img{
-    width: 200px;
-    height: 200px;
+#wwr-img {
+    width: 600px;
+    height: 400px;
+
 }
 
+.wwr-img {
+    width: 600px;
+    height: 400px;
+}
+
+.wwr-box {
+    height: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px; 
+
+}
 
 .contact-card {
     grid-column: 3/3;
@@ -190,14 +238,19 @@ h2 {
 .personal-box {
     height: 400px;
     width: 100%;
-    background-color: #92BCEA;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 
-.personal-img {
+#personal-img {
     grid-column: 2/2;
     width: 300px;
     height: 300px;
+}
+
+.personal-img {
+    width: 600px;
+    height: 400px;
 }
 
 footer {
