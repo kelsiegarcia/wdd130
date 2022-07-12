@@ -63,8 +63,14 @@ nav a:hover {
     margin-top: 200px;
 }
 
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
 .work-card {
-    grid-column: 1/1;
+   
     text-align: center;
     border-color:  #92BCEA;
     border-width: 3px;
@@ -86,13 +92,49 @@ h2 {
 
 
 .personal-card {
-    grid-column: 2/2;
     text-align: center;
     border-color:  #92BCEA;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
     box-shadow: 3px 3px 2px #92BCEA;
+}
+
+.personal-work-card {
+    text-align: center;
+    border-color:  #92BCEA;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px #92BCEA
+}
+
+.kop-card {
+    text-align: center;
+    border-color:  #92BCEA;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px #92BCEA
+}
+
+.kop2-img {
+    width: 200px;
+    height: 200px;
+}
+
+.wwr-card {
+    text-align: center;
+    border-color:  #92BCEA;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px #92BCEA
+}
+
+.wwr-img{
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -121,6 +163,8 @@ h2 {
 
 }
 
+
+
 .hero-img {
     width: 100%;
 
@@ -143,5 +187,47 @@ h2 {
     border-radius: 10px;
 }
 
+.personal-box {
+    height: 400px;
+    width: 100%;
+    background-color: #92BCEA;
+    border-radius: 10px;
+}
+
+.personal-img {
+    grid-column: 2/2;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #25171a;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer h3 {
+    color: #C47335;
+    text-decoration: none;
+}
+
+footer a {
+    color:#C47335;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
 
 
