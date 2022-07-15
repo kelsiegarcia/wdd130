@@ -24,18 +24,18 @@ header {
 
 nav a {
     text-align: center;
-    color: whitesmoke;
+    color: #ffffff;
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover {
-    color: whitesmoke;
+    color: #b1a1ed;
 }
 
 nav a {
     text-align: center;
-    color: #92BCEA; 
+    color: #b1a1ed; 
 }
 
 nav {
@@ -44,8 +44,8 @@ nav {
 }
 
 nav a:hover {
-    background-color: #92BCEA;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #b1a1ed;
 }
 
 
@@ -55,7 +55,18 @@ nav a:hover {
     
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #b1a1ed;
 
+}
+
+p {
+    font-family: 'Lato';
+    text-align: center;
+    color: #b1a1ed;
+}
 .home-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -93,8 +104,11 @@ nav a:hover {
 
 
 h2 {
-    text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    color: #b1a1ed;
+    
 }
 
 
@@ -196,12 +210,78 @@ h2 {
     box-shadow: 3px 3px 2px #92BCEA;
 }
 
+.aboutme-grid {
+    display: grid;
+    grid-template-rows: repeat(3);
+    /* grid-template-columns: repeat(2); */
+    grid-gap: 20px;
+
+}
+
+.kayaking-card {
+    grid-row: 1/1;
+    border-color:  #b1a1ed;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    /* box-shadow: 3px 3px 2px #92BCEA; */
+
+}
+
+.rr-card {
+    grid-row: 2/2;
+    border-color:  #92BCEA;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    /* box-shadow: 3px 3px 2px #92BCEA; */
+}
+
+.disney-family-card {
+    grid-row: 3/3;
+    border-color:  #b1a1ed;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    /* box-shadow: 1px 1px 2px #92BCEA; */
+}
+
+.island-img {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #b1a1ed;
+}
+
+.rr-img {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+.disney-family-img {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
 .shaka-img {
     width: 300px;
     height: 300px;  
 }
 
-#hero {
+.side-box {
+    float: right;
+    text-align: center;
+}
+/* #hero {
     margin-top: -100;
     border-color:  #92BCEA;
     border-width: 5px;
@@ -209,7 +289,7 @@ h2 {
     border-radius: 10px;
     
 
-}
+} */
 
 
 
