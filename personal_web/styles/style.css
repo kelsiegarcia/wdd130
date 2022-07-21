@@ -20,6 +20,7 @@ header {
     background-color: #ffffff;
     display: grid;
     grid-template-columns: 150px auto;
+    font-family: Montserrat;
 }
 
 nav a {
@@ -66,7 +67,11 @@ p {
     font-family: 'Lato';
     text-align: center;
     color: #b1a1ed;
-}
+    margin-left: 100px;
+    margin-right: 100px;
+
+}  
+
 .home-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,11 +88,11 @@ p {
 
 .work-card {   
     text-align: center;
-    border-color:  #92BCEA;
+    border-color:  #b1a1ed;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 2px #92BCEA;
+    box-shadow: 3px 3px 2px #b1a1ed;
 
 }
 
@@ -95,7 +100,11 @@ p {
     width: 200px;
     height: 200px;
     grid-column: 2/2;
+    margin-top: 20px;
+    padding-top: 50px;
+
 }
+
 
 #personal-img {
     width: 600px;
@@ -104,51 +113,53 @@ p {
 
 
 h2 {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-family: 'Montserrat', sans-serif;
-    text-align: right;
-    color: #b1a1ed;
-    
+    text-align: center;
+    color: #b1a1ed;   
 }
-
 
 .personal-card {
     text-align: center;
-    border-color:  #92BCEA;
+    border-color:  #b1a1ed;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 2px #92BCEA;
+    box-shadow: 3px 3px 2px #b1a1ed;
 }
+
 
 .personal-work-card {
     grid-column: 2/2;
     text-align: center;
-    border-color:  #92BCEA;
+    border-color:  #b1a1ed;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 2px #92BCEA
+    box-shadow: 3px 3px 2px #b1a1ed;
+    margin-top: 30px;
 }
 
 .kop-card {
     text-align: center;
-    border-color:  #92BCEA;
+    border-color:  #b1a1ed;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 2px #92BCEA
+    box-shadow: 3px 3px 2px #b1a1ed;
 }
 
 .kop2-img {
     width: 600px;
     height: 400px;
+    margin-left: 100px;
 }
 
 #kop2-img {   
     grid-column: 2/2;
     width: 200px;
     height: 200px;
+    margin-left: 100px;;
    
 }
 
@@ -157,6 +168,7 @@ h2 {
     width: 100%;
     background-color: #ffffff;
     border-radius: 10px;
+   
 }
 
 .kop-grid {
@@ -174,47 +186,49 @@ h2 {
 
 .wwr-card {
     text-align: center;
-    border-color:  #92BCEA;
+    border-color:  #b1a1ed;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 2px #92BCEA;
-}
-
-#wwr-img {
-    width: 600px;
-    height: 400px;
-
+    box-shadow: 3px 3px 2px #b1a1ed;
 }
 
 .wwr-img {
     width: 600px;
     height: 400px;
+    margin-top: 50px;
+
 }
 
 .wwr-box {
     height: 400px;
     width: 100%;
     background-color: #ffffff;
-    border-radius: 10px; 
-
+    border-radius: 10px;
+    margin-top: 35px;
+    padding-top: 35px;
 }
+
+
 
 .contact-card {
     grid-column: 3/3;
     text-align: center;
-    border-color:  #92BCEA;
+    border-color:  #b1a1ed;
     border-width: 3px;
     border-style: solid;
     border-radius: 20px;
-    box-shadow: 3px 3px 2px #92BCEA;
+    box-shadow: 3px 3px 2px #b1a1ed;
 }
+
+
+
 
 .aboutme-grid {
     display: grid;
     grid-template-rows: repeat(3);
-    /* grid-template-columns: repeat(2); */
     grid-gap: 20px;
+    margin-right: 250px;
 
 }
 
@@ -224,17 +238,21 @@ h2 {
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    /* box-shadow: 3px 3px 2px #92BCEA; */
+    margin-left: 125px;
+    margin-right: 250px;
+    
 
 }
 
 .rr-card {
     grid-row: 2/2;
-    border-color:  #92BCEA;
+    border-color:  #b1a1ed;
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    /* box-shadow: 3px 3px 2px #92BCEA; */
+    margin-left: 125px;
+    margin-right: 250px; 
+
 }
 
 .disney-family-card {
@@ -243,24 +261,32 @@ h2 {
     border-width: 1px;
     border-style: solid;
     border-radius: 20px;
-    /* box-shadow: 1px 1px 2px #92BCEA; */
+    margin-left: 125px;
+
+    margin-right: 250px;
+
 }
 
 .island-img {
     width: 600px;
     height: 400px;
-    padding: 10px;
-    margin: 10px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #b1a1ed;
+    /* padding-left: 75px; */
+    margin-left: 75px;
+    margin-top: 20px;
+    padding-top: 20px;
+
 }
 
 .rr-img {
     width: 600px;
     height: 400px;
-    padding: 20px;
-    margin: 20px;
+    /* padding: 20px;
+    margin: 20px; */
+    /* padding-left: 75px; */
+    margin-left: 75px;
+    margin-top: 20px;
+    padding-top: 20px;
+
 
 }
 
@@ -268,8 +294,13 @@ h2 {
 .disney-family-img {
     width: 600px;
     height: 400px;
-    padding: 20px;
-    margin: 20px;
+    /* padding-left: 75px; */
+    margin-left: 75px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-right: 75px;
+
+
 }
 
 .shaka-img {
@@ -278,9 +309,16 @@ h2 {
 }
 
 .side-box {
-    float: right;
-    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
+
+
 }
+
+.side-box, p {
+    color: #b1a1ed;
+}
+
 /* #hero {
     margin-top: -100;
     border-color:  #92BCEA;
@@ -305,33 +343,83 @@ h2 {
 }
 
 .box {
-    background-color: #92BCEA;
-    color: #7A93AC;
+    background-color: #b1a1ed;
+    /* color: #7A93AC; */
     height: 400px;
-    width: 100%;
+    width: 110%;
     /* padding: 10px; */
     margin: 10px 0px 10px;
     grid-column: 1/2;
     border-radius: 10px;
+    
 }
+
+.box, p {
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+.box, h2 {
+    color: white;
+    font-size: 20px;
+}
+
 
 .personal-box {
     height: 400px;
     width: 100%;
     background-color: #ffffff;
     border-radius: 10px;
+    
 }
+
+.personal-card, h2 {
+    color: #b1a1ed;  
+}
+
+/* .personal-box, h2 {
+    margin-top: 35px;
+    padding-top: 35px;
+} */
+
+
 
 #personal-img {
-    grid-column: 2/2;
-    width: 300px;
+
+    width: 500px;
     height: 300px;
+
+
 }
 
-.personal-img {
+.description {
+    color:#b1a1ed;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-top: 35px;
+    padding-top: 25px;
+}
+
+.personal-web {
+    grid-column: 2/2;
     width: 600px;
     height: 400px;
+    margin-top: 25px;
 }
+
+ .personal-img {
+    grid-column: 2/2;
+    width: 300px;
+    height: 200px;
+    margin: 20px 20px 20px;
+    padding-top: 50px;
+}
+
 
 footer {
     background-color: #ffffff;
@@ -355,7 +443,7 @@ footer a {
 }
 
 footer a:hover {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
